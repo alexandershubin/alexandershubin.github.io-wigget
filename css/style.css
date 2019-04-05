@@ -303,6 +303,7 @@ img {
   line-height: 18px;
   letter-spacing: 0.56px;
   padding-left: 15px;
+  margin-bottom: 22px;
 }
 .social {
   display: -webkit-box;
@@ -349,12 +350,20 @@ img {
 .social__link--vk img {
   padding-top: 15px;
 }
+.login-form {
+  position: relative;
+}
+form.login-form img {
+  position: absolute;
+  bottom: -15px;
+  right: 30px;
+}
 .text__letter {
   width: 264px;
   height: 31px;
   border-radius: 5px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 22px;
   margin-bottom: 10px;
   border: 1px solid #2856a8;
 }
@@ -412,6 +421,7 @@ button.button.button-plus {
   padding-top: 5px;
 }
 .main-footer {
+  position: relative;
   border-radius: 0 0 15px 15px;
   border: 1px solid #d9d9d9;
   background-color: #2856a8;
@@ -436,6 +446,8 @@ button.button.button-plus {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.48px;
+  background: url("../img/угол.svg") no-repeat;
+  background-position: 200px;
 }
 .main-footer__last a {
   color: #ffffff;
